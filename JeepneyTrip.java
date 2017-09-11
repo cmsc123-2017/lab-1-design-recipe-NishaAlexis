@@ -16,6 +16,23 @@ class JeepneyTrip {
     this.discountPassengers = discountPassengers;
   }
   
+  //TEMPLATE
+  /*
+   FIELDS:
+     ...this.distance...           --double
+     ...this.totalPassengers...    --int
+     ...this.discountPassengers... --int
+     
+     this.BASE_KM
+     this.ADD_KM
+     this.DISCOUNTED_FARE
+     this.REGULAR_FARE
+     
+   METHODS:
+     ...this.fareChange(double payment)...    --double
+     ...this.actualFare()...                  --double
+     ...this.additionalFare()...              --double
+   */
   //double -> double
   //Computes the change of the passengers in a jeepney, given the payment
   double fareChange(double payment) {

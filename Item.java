@@ -9,6 +9,16 @@ class Item {
     this.price = price;
     this.sale = sale;
   }
+  //TEMPLATE
+  /*
+   FIELDS:
+     ...this.price...   --int
+     ...this.sale...    --double
+     
+   METHODS:
+     ...this.salePrice1000()...       --double
+     ...this.computeSalePrice()...    --double   
+   */
   
   //int, double -> double
   // Given the item price and sale percentage, apply the sale to the item price if price exceeds 1000, 
